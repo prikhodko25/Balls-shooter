@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://nrh8jh4dn8nc"]
+
+[ext_resource type="Script" uid="uid://cjr77keywlxye" path="res://пр_1.gd" id="1_f853q"]
+[ext_resource type="Texture2D" uid="uid://d2vk1atvhiwoi" path="res://stars-1436950_1280.jpg" id="2_77g1y"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_f853q")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, 324.5)
+scale = Vector2(0.9, 0.901114)
+texture = ExtResource("2_77g1y")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 512.0
+offset_top = 192.0
+offset_right = 640.0
+offset_bottom = 256.0
+text = "Почати гру"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 520.0
+offset_top = 320.0
+offset_right = 648.0
+offset_bottom = 384.0
+text = "Підказки"
+horizontal_alignment = 1
+vertical_alignment = 1
