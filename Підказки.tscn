@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://8mlvl0hfjyd8"]
+
+[ext_resource type="Script" uid="uid://d2niao0t0v3te" path="res://підказки.gd" id="1_rqur0"]
+[ext_resource type="Texture2D" uid="uid://d2vk1atvhiwoi" path="res://stars-1436950_1280.jpg" id="2_gakvq"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_rqur0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, 324.5)
+scale = Vector2(0.9, 0.901114)
+texture = ExtResource("2_gakvq")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 88.0
+offset_right = 160.0
+offset_bottom = 136.0
+text = "Меню"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 304.0
+offset_right = 752.0
+offset_bottom = 616.0
+text = "🌑Щоб задати напрямок руху кулі,
+ проведіть мишею в потрібному напрямку. 
+🌑Якщо протягом трьох ходів ви не знищили
+ жодної кулі, то додається  нова лінія куль. 
+🌑Ви отримуєте очки за кожну знищену кулю."
